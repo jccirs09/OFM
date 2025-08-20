@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\jccir\\Documents\\repos\\OFM\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89B9D0D8-9B2B-4FE1-AA40-1398026541D8}|OFM.csproj|c:\\users\\jccir\\documents\\repos\\ofm\\models\\workorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B9D0D8-9B2B-4FE1-AA40-1398026541D8}|OFM.csproj|solutionrelative:models\\workorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B9D0D8-9B2B-4FE1-AA40-1398026541D8}|OFM.csproj|c:\\users\\jccir\\documents\\repos\\ofm\\models\\salesorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B9D0D8-9B2B-4FE1-AA40-1398026541D8}|OFM.csproj|solutionrelative:models\\salesorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B9D0D8-9B2B-4FE1-AA40-1398026541D8}|OFM.csproj|c:\\users\\jccir\\documents\\repos\\ofm\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B9D0D8-9B2B-4FE1-AA40-1398026541D8}|OFM.csproj|solutionrelative:models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B9D0D8-9B2B-4FE1-AA40-1398026541D8}|OFM.csproj|c:\\users\\jccir\\documents\\repos\\ofm\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B9D0D8-9B2B-4FE1-AA40-1398026541D8}|OFM.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B9D0D8-9B2B-4FE1-AA40-1398026541D8}|OFM.csproj|c:\\users\\jccir\\documents\\repos\\ofm\\models\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B9D0D8-9B2B-4FE1-AA40-1398026541D8}|OFM.csproj|solutionrelative:models\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B9D0D8-9B2B-4FE1-AA40-1398026541D8}|OFM.csproj|c:\\users\\jccir\\documents\\repos\\ofm\\models\\machine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B9D0D8-9B2B-4FE1-AA40-1398026541D8}|OFM.csproj|solutionrelative:models\\machine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorkOrder.cs",
+              "DocumentMoniker": "C:\\Users\\jccir\\Documents\\repos\\OFM\\Models\\WorkOrder.cs",
+              "RelativeDocumentMoniker": "Models\\WorkOrder.cs",
+              "ToolTip": "C:\\Users\\jccir\\Documents\\repos\\OFM\\Models\\WorkOrder.cs",
+              "RelativeToolTip": "Models\\WorkOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T02:13:53.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalesOrder.cs",
+              "DocumentMoniker": "C:\\Users\\jccir\\Documents\\repos\\OFM\\Models\\SalesOrder.cs",
+              "RelativeDocumentMoniker": "Models\\SalesOrder.cs",
+              "ToolTip": "C:\\Users\\jccir\\Documents\\repos\\OFM\\Models\\SalesOrder.cs",
+              "RelativeToolTip": "Models\\SalesOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T02:13:23.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Machine.cs",
+              "DocumentMoniker": "C:\\Users\\jccir\\Documents\\repos\\OFM\\Models\\Machine.cs",
+              "RelativeDocumentMoniker": "Models\\Machine.cs",
+              "ToolTip": "C:\\Users\\jccir\\Documents\\repos\\OFM\\Models\\Machine.cs",
+              "RelativeToolTip": "Models\\Machine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T02:10:35.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Truck.cs",
+              "DocumentMoniker": "C:\\Users\\jccir\\Documents\\repos\\OFM\\Models\\Truck.cs",
+              "RelativeDocumentMoniker": "Models\\Truck.cs",
+              "ToolTip": "C:\\Users\\jccir\\Documents\\repos\\OFM\\Models\\Truck.cs",
+              "RelativeToolTip": "Models\\Truck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T02:09:47.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\jccir\\Documents\\repos\\OFM\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "C:\\Users\\jccir\\Documents\\repos\\OFM\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T02:09:12.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "C:\\Users\\jccir\\Documents\\repos\\OFM\\Models\\Branch.cs",
+              "RelativeDocumentMoniker": "Models\\Branch.cs",
+              "ToolTip": "C:\\Users\\jccir\\Documents\\repos\\OFM\\Models\\Branch.cs",
+              "RelativeToolTip": "Models\\Branch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T02:08:24.432Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,0 +1,8 @@
+C:\Users\jccir\Documents\repos\OFM\obj\Debug\net10.0\OFM.csproj.AssemblyReference.cache
+C:\Users\jccir\Documents\repos\OFM\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\jccir\Documents\repos\OFM\obj\Debug\net10.0\OFM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jccir\Documents\repos\OFM\obj\Debug\net10.0\OFM.AssemblyInfoInputs.cache
+C:\Users\jccir\Documents\repos\OFM\obj\Debug\net10.0\OFM.AssemblyInfo.cs
+C:\Users\jccir\Documents\repos\OFM\obj\Debug\net10.0\OFM.csproj.CoreCompileInputs.cache
+C:\Users\jccir\Documents\repos\OFM\obj\Debug\net10.0\OFM.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jccir\Documents\repos\OFM\obj\Debug\net10.0\OFM.sourcelink.json
