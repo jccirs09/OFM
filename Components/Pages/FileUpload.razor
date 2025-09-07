@@ -1,0 +1,64 @@
+@page "/fileupload"
+@using System.IO
+@using UglyToad.PdfPig
+@using UglyToad.PdfPig.Content
+
+<h3>Upload PDF</h3>
+
+<InputFile OnChange="HandleFileSelected" />
+
+@if (!string.IsNullOrEmpty(parsingMessage))
+{
+    <p>@parsingMessage</p>
+}
+
+@if (!string.IsNullOrEmpty(extractedText))
+{
+    <div class="text-container">
+        <h4>Extracted Text:</h4>
+        <pre>@extractedText</pre>
+    </div>
+}
+
+@code {
+    private string? extractedText;
+    private string? parsingMessage;
+
+    private async Task HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        parsingMessage = "Parsing, please wait...";
+        extractedText = null;
+
+        var file = e.File;
+        if (file != null)
+        {
+            try
+            {
+                await using var memoryStream = new MemoryStream();
+                await file.OpenReadStream(maxAllowedSize: 51200000).CopyToAsync(memoryStream);
+                memoryStream.Position = 0;
+
+                using (var pdf = PdfDocument.Open(memoryStream))
+                {
+                    var text = new System.Text.StringBuilder();
+                    foreach (var page in pdf.GetPages())
+                    {
+                        text.AppendLine(page.Text);
+                    }
+                    extractedText = text.ToString();
+                    parsingMessage = "File parsed successfully!";
+                }
+            }
+            catch (Exception ex)
+            {
+                parsingMessage = $"Error: {ex.Message}";
+            }
+        }
+        else
+        {
+            parsingMessage = "No file selected.";
+        }
+
+        StateHasChanged();
+    }
+}
